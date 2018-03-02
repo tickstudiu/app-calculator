@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyApp</string>
+    <string name="app_name">Calculator</string>
     <string name="btn1">1</string>
     <string name="btn2">2</string>
     <string name="btn3">3</string>
@@ -15,4 +15,6 @@
     <string name="btnMul">*</string>
     <string name="btnDe">/</string>
     <string name="btnC">C</string>
+    <string name="btnDot">.</string>
+    <string name="equl">=</string>
 </resources>

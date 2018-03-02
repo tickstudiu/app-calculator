@@ -21,6 +21,7 @@
         android:enabled="false"
         android:inputType="none"
         android:lines="2"
+        android:hint="@string/app_name"
         android:maxLines="2"
         android:selectAllOnFocus="false"
         android:singleLine="false"
@@ -51,7 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="7"
+                android:text="@string/btn7"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="201dp"
                 tools:layout_editor_absoluteY="415dp" />
@@ -62,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="8"
+                android:text="@string/btn8"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="36dp"
                 tools:layout_editor_absoluteY="415dp" />
@@ -73,7 +74,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="9"
+                android:text="@string/btn9"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="280dp"
                 tools:layout_editor_absoluteY="437dp" />
@@ -84,7 +85,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="/"
+                android:text="@string/btnDe"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="113dp"
                 tools:layout_editor_absoluteY="463dp" />
@@ -101,7 +102,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="4"
+                android:text="@string/btn4"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="36dp"
                 tools:layout_editor_absoluteY="358dp" />
@@ -112,7 +113,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="5"
+                android:text="@string/btn5"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="104dp"
                 tools:layout_editor_absoluteY="302dp" />
@@ -123,7 +124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="6"
+                android:text="@string/btn6"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="124dp"
                 tools:layout_editor_absoluteY="358dp" />
@@ -134,7 +135,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="*"
+                android:text="@string/btnMul"
                 tools:layout_editor_absoluteX="201dp"
                 tools:layout_editor_absoluteY="296dp" />
         </LinearLayout>
@@ -150,7 +151,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="1"
+                android:text="@string/btn1"
                 android:textSize="20sp" />
 
             <Button
@@ -159,7 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="2"
+                android:text="@string/btn2"
                 android:textSize="20sp" />
 
             <Button
@@ -168,7 +169,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="3"
+                android:text="@string/btn3"
                 android:textSize="20sp" />
 
             <Button
@@ -177,7 +178,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="-"
+                android:text="@string/btnMinus"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -192,7 +193,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="."
+                android:text="@string/btnDot"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="104dp"
                 tools:layout_editor_absoluteY="382dp" />
@@ -203,7 +204,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="0"
+                android:text="@string/btn0"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="216dp"
                 tools:layout_editor_absoluteY="166dp" />
@@ -213,9 +214,8 @@
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignRight="@id/buttonNine"
                 android:layout_weight="1"
-                android:text="="
+                android:text="@string/equl"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="243dp"
                 tools:layout_editor_absoluteY="183dp" />
@@ -226,7 +226,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="+"
+                android:text="@string/btnPlus"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="208dp"
                 tools:layout_editor_absoluteY="382dp" />
@@ -242,7 +242,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="C"
+        android:text="@string/btnC"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
